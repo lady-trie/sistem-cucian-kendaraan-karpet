@@ -1,37 +1,16 @@
-# Sistem Informasi Manajemen Antrian dan Transaksi pada Usaha Jasa Cucian Kendaraan dan Karpet Berbasis Web
+# React + Vite
 
-## Deskripsi
-Sistem ini merupakan aplikasi berbasis web yang digunakan untuk membantu pengelolaan layanan cucian kendaraan dan karpet. Sistem ini mempermudah proses pencatatan transaksi, pengelolaan antrian, serta monitoring status layanan secara lebih terstruktur.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Fitur Utama
-- Login & Logout
-- Mengelola Data Transaksi
-- Melihat Antrian
-- Update Status Layanan
-- Dashboard Owner
-- Laporan (opsional)
- 
-## Teknologi yang Digunakan
-- PHP
-- MySQL
-- HTML, CSS, JavaScript
-- Web Browser (Chrome, dll)
+Currently, two official plugins are available:
 
-## Cara Menjalankan Project
-1. Clone repository ini
-2. Pindahkan ke folder `htdocs` (jika menggunakan XAMPP)
-3. Import database ke MySQL
-4. Jalankan melalui browser:
-   http://localhost:5173/
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Struktur Pengguna
-- **Owner**: Mengelola seluruh sistem (transaksi, antrian, laporan)
-- **Karyawan** (opsional): Membantu operasional
+## React Compiler
 
-## Tim Pengembang
--Lady Trie Arthisya
--Fadhil Ramadhan
--Rasyid Mustafa
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Tujuan
-Membantu usaha cucian dalam meningkatkan efisiensi operasional, mengurangi pencatatan manual, dan mempermudah pengelolaan layanan.
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
