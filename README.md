@@ -22,3 +22,16 @@ Sistem ini merupakan aplikasi berbasis web yang digunakan untuk membantu pengelo
 2. Pindahkan ke folder `htdocs` (jika menggunakan XAMPP)
 3. Import database ke MySQL
 4. Jalankan melalui browser:
+
+
+## Struktur Pengguna
+- **Owner**: Mengelola seluruh sistem (transaksi, antrian, laporan)
+- **Karyawan** (opsional): Membantu operasional
+
+## Tim Pengembang
+- Fadhil
+- Rasyid
+- Deye
+
+## Tujuan
+Membantu usaha cucian dalam meningkatkan efisiensi operasional, mengurangi pencatatan manual, dan mempermudah pengelolaan layanan.
